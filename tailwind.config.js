@@ -4,8 +4,8 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'ini': "url('/public/img/LOGO PRIBADI.png')",
-        'footer-texture': "url('/public/img/LOGO PRIBADI.png')",
+        'ini': "url('/public/img/LOGO_PRIBADI.png')",
+        'footer-texture': "url('/public/img/LOGO_PRIBADI.png')",
       }
     },
   },
