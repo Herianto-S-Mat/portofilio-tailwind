@@ -700,7 +700,7 @@ video {
 }
 
 .bg-ini {
-  background-image: url('../img/LOGO_PRIBADI.png');
+  background-image: url('/public/img/LOGO PRIBADI.png');
 }
 
 .from-orange-200 {
@@ -858,7 +858,7 @@ video {
 }
 
 *{
-  //border: 1px solid red;
+  border: 1px solid red;
 }
 
 .hover\:border-x-8:hover {
