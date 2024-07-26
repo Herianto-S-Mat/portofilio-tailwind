@@ -1,15 +1,28 @@
 <h1 class="font-black pb-4">*  CONTACT *</u></h1>
 <div class="grid border-t-2 border-green-900 pt-3">
-  <div class="p-2 rounded">
-        <a class="text-2xl w-full grid" href="#"><i class="fas fa-envelope"></i><a>E-mail : </a><input></a>
-  </div>
-  <div class="p-2 rounded">
-  <a class="text-2xl w-full grid" href="#"><i class="fas fa-whatsapp"></i><a>Whatsapp : </a><input></a>
-  </div>
-  <div class="p-2 rounded">
-  <a class="text-2xl w-full grid" href="#"><i class="fas fa-instagram"></i><a>Instagram : </a><input></a>
-  </div>
-  <div class="p-2 rounded">
-  <a class="text-2xl w-full grid" href="#"><i class="fas fa-linkedin-in"></i><a>Linkedin : </a><input></a>
-  </div>
+  <form action="#" method="POST">
+    <div class="mb-4">
+      <label class="block text-gray-700 text-sm font-bold mb-2" for="name">
+        Name
+      </label>
+      <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="name" type="text" placeholder="Your name">
+    </div>
+    <div class="mb-4">
+      <label class="block text-gray-700 text-sm font-bold mb-2" for="email">
+        Email
+      </label>
+      <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="email" type="email" placeholder="Your email">
+    </div>
+    <div class="mb-4">
+      <label class="block text-gray-700 text-sm font-bold mb-2" for="message">
+        Message
+      </label>
+      <textarea class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="message" placeholder="Your message" rows="4"></textarea>
+    </div>
+    <div class="flex items-center justify-between">
+      <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="submit">
+        Send
+      </button>
+    </div>
+  </form>
 </div>
